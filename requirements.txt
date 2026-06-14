@@ -1,0 +1,6 @@
+beautifulsoup4
+ipython
+jupyter
+openai
+python-dotenv
+requests

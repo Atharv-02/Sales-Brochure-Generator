@@ -1,0 +1,32 @@
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.enc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build output
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
