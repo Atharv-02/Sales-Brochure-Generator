@@ -13,7 +13,7 @@ Generate a concise sales brochure for a company from its public website. The not
 
 ```text
 .
-├── day5.ipynb       # Main notebook workflow
+├── Generator.ipynb  # Main notebook workflow
 ├── scraper.py       # Website scraping helpers used by the notebook
 ├── requirements.txt # Python dependencies
 └── .env.example     # Template for local API configuration
@@ -57,7 +57,7 @@ Use the `BASE_URL`, `API_KEY`, and model that match your provider.
 
 ## Running the Notebook
 
-Open `day5.ipynb` in Jupyter or VS Code and select the `.venv` Python kernel. Run the cells from top to bottom.
+Open `Generator.ipynb` in Jupyter or VS Code and select the `.venv` Python kernel. Run the cells from top to bottom.
 
 The core workflow is:
 
@@ -72,4 +72,3 @@ The core workflow is:
 - Do not commit your real `.env` file. It may contain private API keys.
 - Some websites may block scraping or fail DNS resolution. If a request fails, try another URL or check that the site is reachable in your browser.
 - The scraper is intentionally simple for learning purposes. Production scraping should add timeouts, error handling, rate limiting, and respect each website's terms and robots rules.
-
